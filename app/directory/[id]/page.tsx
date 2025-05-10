@@ -120,12 +120,18 @@ export default async function ChurchDetailsPage({
             </div>
 
             {church.latitude && church.longitude && (
-              <div className="aspect-video bg-slate-100 rounded-md flex items-center justify-center">
-                <p className="text-muted-foreground">
-                  Map will be displayed here
-                </p>
-              </div>
-            )}
+  <div className="aspect-video rounded-md overflow-hidden">
+    <iframe
+      width="100%"
+      height="100%"
+      frameBorder="0"
+      style={{ border: 0 }}
+      src={`https://www.google.com/maps?q=${church.latitude},${church.longitude}&z=15&output=embed`}
+      allowFullScreen
+    ></iframe>
+  </div>
+)}
+
 
             {church.description && (
               <div>
