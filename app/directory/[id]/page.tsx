@@ -98,7 +98,7 @@ export default async function ChurchDetailsPage({
             )}
           </CardHeader>
           <CardContent className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols">
               {church.email && (
                 <div className="flex items-center gap-2">
                   <Mail className="h-5 w-5 text-muted-foreground" />
@@ -120,18 +120,17 @@ export default async function ChurchDetailsPage({
             </div>
 
             {church.latitude && church.longitude && (
-  <div className="aspect-video rounded-md overflow-hidden">
-    <iframe
-      width="100%"
-      height="100%"
-      frameBorder="0"
-      style={{ border: 0 }}
-      src={`https://www.google.com/maps?q=${church.latitude},${church.longitude}&z=15&output=embed`}
-      allowFullScreen
-    ></iframe>
-  </div>
-)}
-
+              <div className="aspect-video rounded-md overflow-hidden">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  style={{ border: 0 }}
+                  src={`https://www.google.com/maps?q=${church.latitude},${church.longitude}&z=15&output=embed`}
+                  allowFullScreen
+                ></iframe>
+              </div>
+            )}
 
             {church.description && (
               <div>
