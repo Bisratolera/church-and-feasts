@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin({
+  messagesDir: './messages',
+});
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
@@ -6,9 +11,10 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  reactStrictMode: false,
   images: {
-    unoptimized: true,
+    domains: ['res.cloudinary.com'],
   },
-}
+};
 
-export default nextConfig
+export default withNextIntl(nextConfig);

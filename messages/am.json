@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "መነሻ",
+    "title": "የቤተክርስቲያን መዝገብ",
+    "churches": "ደብራት",
+    "feasts": "በዓላት",
+    "search": "ፈልግ",
+    "login": "ግባ"
+  },
+  "HomePage": {
+    "home": {
+      "title": "የቤተክርስቲያን መዝገብ እና የበዓል መቁጠሪያ",
+      "description": "በአካባቢዎ ያሉ ቤተክርስቲያናትን ያግኙ እና የቅዱሳንን በዓላትን ይውቁ።",
+      "findChurches": "ቤተክርስቲያናትን ፈልግ",
+      "viewFeasts": "የበዓል መቁጠሪያ ይመልከቱ",
+      "todaysCommemorations": "የዛሬ ዝክረቶች",
+      "viewAll": "ሁሉንም አሳይ",
+      "noDescription": "መግለጫ አልተገኘም።",
+      "celebratedAt": "{count} ቤተክርስቲያን(ኦች) ውስጥ ይከበራል",
+      "viewDetails": "ዝርዝሮችን ይመልከቱ",
+      "nearestChurches": "ቅርብ ያሉ ደብራት",
+      "upcomingFeasts": "በቅርብ የሚመጡ በዓላት",
+      "away": "ይርቃል",
+      "churches": "ደብራት",
+      "searchPrompt": "ልዩ ነገር ትፈልጋለህ?",
+      "searchHint": "በስም፣ ቦታ ወይም ቀን በመጠቀም ቤተክርስቲያን ወይም በዓል ፈልግ።",
+      "searchButton": "መዝገቡን ፈልግ"
+    }
+  },
+  "SearchPage": {
+    "headerTitle": "የቤተክርስቲያን መዝገብ",
+    "navigationLinks": {
+      "churches": "ደብራት",
+      "feasts": "በዓላት",
+      "login": "ግባ"
+    },
+    "pageTitle": "ፈልግ",
+    "pageDescription": "ቤተክርስቲያን ወይም በዓል በመዝገቡ ውስጥ ፈልግ",
+    "searchResultsTitle": "የፈለግከው ውጤት: {query}",
+    "noResultsMessage": "የተገኘ ውጤት የለም። ሌላ የፈለግከውን ቃል ይሞክሩ።",
+    "tabs": {
+      "allResults": "ሁሉም ውጤቶች",
+      "churches": "ደብራት ({count})",
+      "feasts": "በዓላት ({count})"
+    },
+    "churchesTitle": "ደብራት",
+    "feastsTitle": "በዓላት",
+    "noDescription": "መግለጫ አልተገኘም።",
+    "viewDetails": "ዝርዝሮችን ይመልከቱ",
+    "viewAllChurches": "ሁሉንም የተገኙ ቤተክርስቲያኖች ይመልከቱ ({count})",
+    "viewAllFeasts": "ሁሉንም የተገኙ በዓላት ይመልከቱ ({count})",
+    "noChurchesFound": "የተገኙ ቤተክርስቲያኖች የለም የፈለግከው መሠረት።",
+    "noFeastsFound": "የተገኙ በዓላት የለም የፈለግከው መሠረት።",
+    "placeholders": {
+      "search": "ቤተክርስቲያን ወይም በዓል ፈልግ",
+      "date": "ቀን ወይም ወቅት ይጻፉ"
+    },
+    "buttons": {
+      "search": "ፈልግ"
+    },
+    "radio": {
+      "all": "ሁሉንም",
+      "churches": "ደብራት",
+      "feasts": "በዓላት"
+    }
+  },
+  "ChurchDirectoryPage": {
+    "headerTitle": "የቤተክርስቲያን መዝገብ",
+    "navigationLinks": {
+      "churches": "ደብራት",
+      "feasts": "በዓላት",
+      "login": "ግባ"
+    },
+    "clearFilters": "የተጠቀሱ መረጃዎችን ይወግዱ",
+    "pageTitle": "የቤተክርስቲያን መዝገብ",
+    "viewDetails": "ዝርዝሮችን ይመልከቱ",
+    "noChurchesFound": "የተገኙ ቤተክርስቲያኖች የለም የፈለግከው መሠረት።",
+    "pageDescription": "ቤተክርስቲያን በመዝገቡ ውስጥ ፈልግ",
+    "searchPlaceholder": "ቤተክርስቲያን ወይም በዓላትን ፈልግ...",
+    "servants": "አገልጋዮች"
+  },
+  "feastPage": {
+    "pageTitle": "የበዓል መቁጠሪያ",
+    "pageDescription": " በዓመት ውስጥ ያሉትን በዓላት ይመልከቱ",
+    "viewDetails": "ዝርዝሮችን ይመልከቱ",
+    "noFeastsFound": "የተገኘ በዓል የለም።",
+    "searchPlaceholder": "በዓላትን ፈልግ...",
+    "feastsFound": "በዚህ ቀን {feasts.length} በዓላት ተገኝቷል",
+    "clearFilters": "ማጣሪያዎችን አጥፋ",
+    "feastsOn": "በዚህ ቀን የሚከበሩት በዓላት",
+    "celebratedAt": "የሚከበሩበት አድባራት: ",
+    "more": "ተጨማሪ አድባራት",
+    "months": {
+      "allMonths": "ሁሉም ወራቶች",
+      "january": "ጥር",
+      "february": "የካቲት",
+      "march": "መጋቢት",
+      "april": "ሚያዝያ",
+      "may": "ግንቦት",
+      "june": "ሰኔ",
+      "july": "ሀምሌ",
+      "august": "ነሐሴ",
+      "september": "መስከረም",
+      "october": "ጥቅምት",
+      "november": "ኅዳር",
+      "december": "ታኅሣሥ"
+    }
+  }
+}
